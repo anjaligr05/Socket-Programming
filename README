@@ -1,0 +1,30 @@
+README
+ 
+     Author: anjali
+
+     Name: Anjali Gopal Reddy
+     Student ID: 8537894991
+     
+     Included files for submission:
+     a. util.h :   Includes all library header files and global constants.
+     b. server450.h: Contains the linked list data structure required to stor server neighbor information 
+     c. client.c: Contains client's functionality
+     d. serverA.c: Contains serverA's functionality
+     e. serverB.c: Contains serverB's functionality
+     f. serverC.c: Contains serverC's functionality
+     g. serverD.c: Contains serverD's functionality
+     
+     Work done: Create a "client.c", "serverA.c", "serverB.c" , "serverC.c", "serverD.c" files to simulate Dikjstra's shortest path algorithm.
+     The client and four servers communicate through TCP and UDP sockets to share network topology and compute the MST of the graph.
+     
+     Steps for Build:
+     
+     Please run make command to create four executables: client, serverA, serverB, serverC and serverD
+     These executables can be run to find the shortest minimum spanning tree of the graph.
+     
+     Format for all messages:
+     All messages are printed as per the project specification
+     
+     The program includes beej socket programming tutorial and adopts the minimum spanning tree prim's algorithm.
+     
+     
